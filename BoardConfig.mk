@@ -17,6 +17,10 @@ TARGET_CPU_VARIANT := generic
 # Assert
 TARGET_OTA_ASSERT_DEVICE := gtesqltespr
 
+# Bootloader
+TARGET_NO_BOOTLOADER := true
+BOARD_VENDOR := samsung
+
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 15728640
@@ -44,6 +48,7 @@ TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/samsung/gtesqltespr
 TARGET_KERNEL_CONFIG := gtesqltespr_defconfig
+KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/gtesqltespr/bootimg.mk
 
 # Ramdisk compression
