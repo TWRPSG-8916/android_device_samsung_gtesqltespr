@@ -14,8 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/samsung/gtesqltespr/device.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/pb/Android.mk)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/gtelwifiue/recovery/root,recovery/root)
 
