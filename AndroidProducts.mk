@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_gtesqltespr.mk
+     $(LOCAL_DIR)/twrp_gtesqltespr.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_gtesqltespr-user \
-    omni_gtesqltespr-userdebug \
-    omni_gtesqltespr-eng
+    twrp_gtesqltespr-user \
+    twrp_gtesqltespr-userdebug \
+    twrp_gtesqltespr-eng
