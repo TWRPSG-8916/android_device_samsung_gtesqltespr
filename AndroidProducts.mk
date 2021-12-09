@@ -7,8 +7,3 @@
 
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_gtesqltespr.mk
-
-COMMON_LUNCH_CHOICES := \
-    omni_gtesqltespr-user \
-    omni_gtesqltespr-userdebug \
-    omni_gtesqltespr-eng
